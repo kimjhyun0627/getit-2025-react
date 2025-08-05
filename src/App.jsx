@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import { ProfileCard } from './components/ProfileCard';
-import { FavoriteFood } from './components/FavoriteFood';
-import { Counter } from './components/Counter';
-import { TextSaver } from './components/TextSaver';
+import { Login } from './components/Login';
+import { DisplayFruits } from './components/DisplayFruits';
+import { Filter } from './components/Filter';
 
 function App() {
 	return (
 		<div>
-			<Counter />
-			<TextSaver />
+			<Filter />
 		</div>
 	);
 }
