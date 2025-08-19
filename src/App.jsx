@@ -1,15 +1,9 @@
 import React from 'react';
-import { useRef } from 'react';
 import './App.css';
-import { RandomWord } from './components/RamdomWord';
-import { Timer } from './components/Timer';
+import AppRouter from './routes/AppRouter';
 
 function App() {
-	return (
-		<div>
-			<Timer />
-		</div>
-	);
+	return <AppRouter />;
 }
 
 export default App;
